@@ -6,7 +6,6 @@ Goal of the project:
 
 I want to use a remote control to control a small car to move(2 cd motors inside the car). The car can move right, left, come and back. The rgb jumbo can repercent the function and request. 
 
-for another board, there's a distance sensor, it's connected to processing and covert the value to the graphic things.
 
 
 Part lists and how to archive the goal:
@@ -33,11 +32,11 @@ H bridge is used as a connectionn  for the Dc motor.
 RGB jumbo can show different types of color light. 
 
 
-5.ultrasound distance sensor
-
-this sensor can get the distance between the car and the front, within a certain range.
 
 
+circuit:
+
+https://github.com/ShuoCCA/final/blob/master/circuit.jpg
 
 motor and h bridge connection
 
