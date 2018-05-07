@@ -44,7 +44,7 @@ motor and h bridge connection
 https://github.com/ShuoCCA/final/blob/master/IMG_3126.JPG
 
 rgb jumbo and ir sensor connection
-https://github.com/ShuoCCA/final/blob/master/IMG_2818.JPG?raw=true
+https://github.com/ShuoCCA/final/blob/master/IMG_2818.JPG
 
 
 
