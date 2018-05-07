@@ -38,10 +38,7 @@ background(0);
  
  if (myPort.available()>0)
  { Val = myPort.readString();
- //Value=myPort.read();
- //print("Print Val (if) - ");
- //println(Val);
- //text(Val,400,400); //some times it's not work, maybe because the processing can't get the right value?
+ 
  }
 //print("test-");
  //println(Val.trim());
@@ -55,20 +52,10 @@ background(0);
   fill(testcolor, 100,100);
 
  ellipse(400,400,test+20,test+20);
- //rect (test*10+10,test*10+10, 20,20);
- //println(test);
 
 
-//try { 
-//    int Vtest = Integer.valueOf(Val).intValue();
-//    println("++"+Vtest);
-//} catch (NumberFormatException e) {
-//    e.printStackTrace();
-//}
 
-// int Vtest=Integer.valueOf(Val);
 
-//rect(Vtest*0.5+10,Vtest*0.5+10,10,10);
 
  
  
