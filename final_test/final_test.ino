@@ -3,25 +3,24 @@
 
 Servo myservo; 
 
-int IR = 7;
+int IR = 7;   //infrared ir sensor
 IRrecv irrecv(IR);
 decode_results irIn;
 //define ir reciver
 
-int sensorpin = A4;   
-int speedval = 0;  
+
 
 int led = 12;
 //define pin code
-int pressureSensorPin = A1;
+
 
 char val;
 
-int redPin = 11;
+int redPin = 11;     //define rgb input
 int greenPin = 10;
 int bluePin = 9;
 
-const int leftForward = 2; 
+const int leftForward = 2;   //define input of the motor
 const int leftBackward = 3; 
 const int rightForward = 4; 
 const int rightBackward = 5;
@@ -183,7 +182,7 @@ digitalWrite(3 , LOW);
      break;
 
     case 0xFF18E7 :
-  Serial.println ( " uppppppppppppppppppppppp" ) ;
+
      setColor(255, 255, 0);  // yellow
   delay(100);  
     break;
@@ -225,15 +224,7 @@ speedval = analogRead(sensorpin);
     //delay(10);
 
 
-    if (speedval > 350) {
-      digitalWrite(led, HIGH);
-      delay(10);
-    }
-    else {
-      digitalWrite(led, LOW);
-    }
-    delay(10);
-
+ 
 
     if (irrecv.decode(&irIn ) ) {
 
