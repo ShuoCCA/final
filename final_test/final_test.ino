@@ -55,7 +55,7 @@ myservo.attach(3);
 }
 
 
-void setColor(int red, int green, int blue)
+void setColor(int red, int green, int blue) //set up color
 {
   #ifdef COMMON_ANODE
     red = 255 - red;
@@ -212,9 +212,8 @@ digitalWrite(3 , LOW);
     // put your main code here, to run repeatedly:
     int pressureSensorState = analogRead(pressureSensorPin);
 speedval = analogRead(sensorpin); 
- // int pressureSensorState2 = Serial.parseInt();
-//Serial.println(speedval); 
 
+//code for debug
 
  //Serial.println (pressureSensorState);
 //     myservo.write(pressureSensorState);
