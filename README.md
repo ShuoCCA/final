@@ -32,6 +32,9 @@ H bridge is used as a connectionn  for the Dc motor.
 RGB jumbo can show different types of color light. 
 
 
+in addition, I made a wood box to put all my parts in and design a module of small car.
+
+
 
 
 circuit:
